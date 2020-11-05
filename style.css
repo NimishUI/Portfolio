@@ -175,3 +175,96 @@ header h1{
 }
 
 
+/************************
+==MEDIA-QUERY
+*************************/
+
+@media screen and (max-width: 480px)
+{
+  h2{
+    font-size: 1.9rem !important;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+  header{
+    height: 6rem;
+  }
+
+  header img{
+    height: 6rem;
+    margin-right: 1rem;
+  }
+
+  h1{
+    font-size: 1.8rem !important;
+  }
+
+  #main{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  #left{
+    height: auto;
+    width: 100%;
+  }
+
+  #about img{
+    display: none;
+  }
+
+  #about h2 {
+    margin: 0;
+    padding: 3.5rem 0 2.5rem 0;
+  }
+
+  #about p {
+    margin: 0 0 2.5rem;
+    padding: 0 5%;
+  }
+
+  #right{
+    width: 100%;
+  }
+
+  #pro {
+    height: 16rem;
+    background-position-x: center;
+  }
+
+  #pro a{
+    font-size: 1.9rem;
+  }
+
+  #contact{
+    margin: 0;
+  }
+
+  #contact h2 {
+    margin: 3.2rem 0;
+  }
+
+  .con-info{
+    flex-direction: column;
+  }
+
+  #con {
+    width: 100%;
+    margin: 0 0 3.2rem 0;
+  }
+
+  #con p {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  #soc{
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
+
